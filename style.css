@@ -1,0 +1,190 @@
+  @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Gamja+Flower&family=Nanum+Pen+Script&display=swap');
+
+  :root {
+    --marron: #635a56;
+    --salmon: #66af91;
+    --rosa: #a2ca8e;
+    --pastel: #f5e19c;
+    --pastel2: #fefcd0;
+
+
+  }
+
+  * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Gamja Flower', cursive;
+    background-color: var(--salmon);
+    color: var(--marron);
+    font-size: 2rem;
+    align-items: center;
+    width: 99vw;
+    overflow-x: hidden;
+
+  }
+
+  h1,
+  h2,
+  h3 {
+    background-color: var(--pastel2);
+    width: 99vw;
+    text-align: center;
+    font-family: 'Clicker Script', cursive;
+  }
+
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  p{
+    padding: 1rem;
+  }
+  aside{
+    text-decoration: none;
+    font-family: 'Nanum Pen Script', cursive;
+  }
+  section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  section img {
+    max-width: 14rem;
+    height: auto;
+    margin: 1rem;
+    transition: transform 0.3s;
+  }   
+  
+  section img:hover {
+    transform: scale(1.1);
+  }
+  span{
+    width: 100vw;
+  }
+  
+  table,
+  th,
+  td {
+    font-family: 'Nanum Pen Script', cursive;
+    border: 1px solid var(--salmon);
+    margin: 1rem;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    background-color: var(--pastel2);
+  }
+
+  .table-image {
+    max-width: 100px;
+    height: auto;
+  }
+
+  .banner {
+    display: flex;
+    margin: auto;
+    height: 25vh;
+
+
+  }
+
+
+  nav {
+    display: flex;
+    background-color: var(--pastel);
+    border: solid var(--marron);
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    font-size: x-large;
+    flex-wrap: wrap;
+
+
+  }
+
+  nav a {
+    background-color: var(--pastel2);
+    border: solid var(--rosa);
+    color: var(--marron);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  a {
+    text-decoration: none;
+    margin: 1rem;
+    padding: 0 0.5rem;
+  }
+
+  a:hover {
+    color: var(--rosa);
+  }
+
+  form {
+    width: 75vw;
+    background-color: var(--rosa);
+    color: var(--marron);
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 15px;
+  }
+  input,textarea{
+    font-family: 'Gamja Flower', cursive;
+    font-size: medium;
+    width: 99%;
+    background-color: var(--salmon);
+    padding: 10px;
+    margin: 5px;    
+    border: solid var(--salmon);
+    border-radius: 8px;
+
+  }
+  fieldset{
+   border: none;
+  }
+  button{
+    background-color: var(--salmon);
+    border-radius: 10px;
+    padding: 3px;
+    font-family: 'Clicker Script', cursive;
+    font-size: larger;
+    transition: transform 0.3s;
+  }   
+  
+  button:hover {
+    transform: scale(1.1);
+    
+  }
+  footer {
+    font-family: 'Clicker Script', cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--pastel);
+    width: 99vw;
+    padding:5px;
+    text-align: center;
+    bottom: 0%;
+  }
+
+  iframe{
+    margin: 1rem;
+  }
+  
+  
+  
+  
+
+
+
+  /*Fin */
